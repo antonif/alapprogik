@@ -11,3 +11,6 @@ wget https://www.apachefriends.org/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-i
 sudo su
 chmod +x xampp-linux-x64-5.6.20-0-installer.run
 ./xampp-linux-x64-5.6.20-0-installer.run
+sudo apt-get install gksu
+gksu gedit /usr/share/applications/xampp-control-panel.desktop
+sudo apt-get update
